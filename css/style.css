@@ -1,0 +1,262 @@
+/* -- OVERALL -- */
+
+body {
+	padding: 0px;
+	margin: 0px;
+}
+
+.app .footer {
+	background-color: grey;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+p, li {
+	font-family: 'Cambay', sans-serif;
+}
+
+/* -- home -- */
+
+.home {
+	text-align: center;
+}
+
+.home .banner {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0px;
+	width: 100%;
+	height: 100vh;
+	background: url('./img/bgpink.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.home .title {
+	display: block;
+	position: relative;
+	justify-content: center;
+	text-align: center;
+	margin: 0px 100px;
+	height: 75vh;
+	border: 5px solid white;
+}
+
+.home .title h1 {
+	position: relative;
+	top: 50%;
+	transform: translateY(-70%);
+	color: white !important;
+	font-size: 63px;
+}
+
+h2 {
+	margin: 30px 0px;
+}
+
+.home .contain {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	text-align: center;
+	justify-content: center;
+	width: 100%;
+	height: calc(100vh - 235px);
+}
+
+.home .tricontainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	height: 300px;
+}
+
+.home .section {
+	margin: 20px;
+	width: calc(100vh / 3);
+}
+
+.home .section-title {
+	margin: 20px 0px;
+}
+
+p {
+	font-size: 110%;
+}
+
+.home .footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: grey;
+	height: 45px;
+}
+
+.home .footer p {
+	margin: 0px;
+	color: rgba(255, 255, 255, .9);
+
+}
+
+.icnbtn {
+	transform: rotate(0deg);
+	transition: transform 1.8s, color 1.2s;
+
+	-ms-transform: rotate(0deg); /* IE 9 */
+	/* no transition support prior to IE 10 */
+
+	-webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+	-webkit-transition: transform 1.8s, color 1.2s; /* Safari */
+}
+
+.tri {
+	transform-origin: 50% 60%;
+	-ms-transform-origin: 50% 60%; /* IE 9 */
+	-webkit-transform-origin: 50% 60%; /* Chrome, Safari, Opera */
+}
+
+.icnbtn:hover {
+	transform: rotate(360deg);
+	-ms-transform: rotate(360deg); /* IE 9 */
+	-webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+	color: rgb(255, 165, 231);
+}
+
+/* -- bio -- */
+
+.bio .contain {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	height: 100vh;
+}
+
+.bio .section {
+	display: flex;
+	width: 50%;
+	height: 100%;
+}
+
+.left {
+	background: url('./img/bgblue.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.right {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 30px;
+	text-align: center;
+}
+
+.bio .bulk {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 40px;
+	height: 100vh;
+}
+
+.bio .foot {
+	margin: 20px;
+}
+
+.bio .foot p {
+	margin: 0px;
+}
+
+/* -- misc -- */
+
+.misc .head {
+	background: url('./img/alyssa.jpg') no-repeat center center;
+	background-size: cover;
+	height: 60vh;
+	max-height:;
+
+}
+
+.misc .content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	/*height: 100vh;*/
+	padding: 20px;
+}
+
+.misc .content h4 {
+	text-align: center;
+}
+
+.misc .gallery {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	border: 2px solid red;
+}
+
+.misc .tile {
+	height: 250px;
+	width: 250px;
+	margin: 5px;
+	border: 2px solid blue;
+}
+
+.misc .img {
+	position: relative;
+	top: 0px;
+	margin: 5px;
+}
+
+/* -- work -- */
+
+.work {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.work .contain {
+	padding: 20px;
+}
+
+.work .section {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	width: 100%;
+	padding: 5px;
+	text-align: center;
+}
+
+.work .img {
+	position: relative;
+	top: 25px;
+	border-radius: 50%;
+}
+
+.work .body {
+	padding: 30px;
+	width: 600px;
+	height: 200px;
+	text-align: left;
+}
+
+.work .back {
+	text-align: center;
+}
+
+.work p {
+	margin: 0px;
+}

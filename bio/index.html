@@ -1,0 +1,43 @@
+<!--// responsive jumbotron background image: https://css-tricks.com/perfect-full-page-background-image/-->
+<!--// header font: josefin sans-->
+<!--// body font: cambay (assistant, or pt sans)-->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title> Michelle Sheng </title>
+		<link rel="stylesheet" type="text/css" href="/css/style.css">
+	</head>
+	<body>
+		<div className="home">
+			<Jumbotron className="home banner">
+				<div className="home title">
+					<h1><b>MICHELLE SHENG</b></h1>
+				</div>
+			</Jumbotron>
+			<div className="home contain">
+				<h2>I'm so glad you want to know about me!</h2>
+				<div className="home tricontainer">
+					<div className="home section">
+						<i className="material-icons icnbtn tri" onClick={() => {this.props.changePage("bio")}}>change_history</i>
+						<h4 className="home section-title">Bio</h4>
+						<p>learn more about my story i am from many places and it is very cool</p>
+					</div>
+					<div className="home section">
+						<i className="material-icons icnbtn" onClick={() => {this.props.changePage("work")}}>code</i>
+						<h4 className="home section-title">Work</h4>
+						<p>learn more about my story i am from many places and it is very cool</p>
+					</div>
+					<div className="home section">
+						<i className="material-icons icnbtn" onClick={() => {this.props.changePage("misc")}}>flare</i>
+						<h4 className="home section-title">Art maybe</h4>
+						<p>learn more about my story i am from many places and it is very cool</p>
+					</div>
+				</div>
+			</div>
+			<div className="home footer">
+				<p>Contact</p>
+			</div>
+		</div>
+	</body>
+</html>
